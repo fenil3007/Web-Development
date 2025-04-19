@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/utils.css">
+    <script type="text/javascript" src="js/Onclick.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="About.html"><img src="img/WhatsApp Image 2024-05-19 at 11.09.16_8078d72b.jpg" alt="" height="40px" width="150px"></a>
+            <ul>
+                <li><button id="but" class="active button" onclick="Home()"> Home </button></li>
+                <li> <button id="but" class="button" onclick="About()"> About </li>
+                <li> <button id="but" class="button" onclick="Contact()"> contact</li>
+            </ul>
+            <ul >
+                <li> <button id="but2" onclick="Login()">Login</button></li> 
+                <!-- <li> <button id="but2" onclick="Register()">Register</button></li> -->
+            </ul>
+        </nav>
+    </header>
+    <Main>
+    <div class="leftimage1">
+        <img src="img/istockphoto-1366851749-612x612.jpg" alt="">
+    </div>
+    <form action="Login.html">
+    <div class="login3">
+        <p class="login1">Registration</p>
+        <p class="login-2">First Name:</p>
+        <input type="text" name="" id="" placeholder="Enter Your First Name" required>
+        <p class="login-2">Last Name:</p>
+        <input type="text" placeholder="Enter Your Last Name" required>
+        <p class="login-2">Mobile Number:</p>
+        <input type="tel" pattern="[7-9]{1}[0-9]{9}" required maxlength="10" placeholder="Enter 10 Digits Mobile Number" size="50px">
+        <p class="login-2">E-mail ID:</p>
+        <input type="email" placeholder="Enter Your E-mail ID" required>
+        <p class="login-2">PassWord:</p>
+        <input type="password" placeholder="Enter Password For Your ID" required>
+        <input type="submit" id="log-but" value="Register"></p>
+        
+        <p class="reg">If you Have already an account You can Log-in With ID PassWord</p>
+        <p class="reg1"><a href="Login.html">Log-In Here</a></p>
+    </div>
+</form>
+</Main>
+<Footer>
+    <p>All Rights Reserved By &copy; Webscholar.com. </p>
+    <p class="terms"> Terms & Conditions</p>
+</Footer>
+</body>
+</html>
